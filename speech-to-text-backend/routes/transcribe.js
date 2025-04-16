@@ -4,7 +4,7 @@ const { OpenAI } = require('openai');  // Import OpenAI SDK
 
 // Initialize OpenAI
 const openai = new OpenAI({
-  apiKey: '' // Replace with your actual API key
+  apiKey: process.env.OPENAI_API_KEY // Replace with your actual API key
 });
 
 router.post('/', async (req, res) => {
