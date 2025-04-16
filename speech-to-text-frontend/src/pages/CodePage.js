@@ -25,9 +25,10 @@ function CodePage() {
   const handleGenerateCode = async () => {
     const finalText = customTranscript.trim();
     if (!finalText) return;
-
+    
+    const apiUrl = process.env.REACT_APP_API_URL || 'http://localhost:5500';
     try {
-      const res = await axios.post('http://localhost:5500/api/generate-code', {
+      const res = await axios.post(`${apiUrl}/api/generate-code`, {
         voiceText: finalText
       });
       setCodeResult(res.data.code);

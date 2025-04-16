@@ -23,9 +23,9 @@ function TranslatePage() {
     if (!finalText) return;
 
     setOriginalText(finalText);
-
+    const apiUrl = process.env.REACT_APP_API_URL || 'http://localhost:5500';
     try {
-      const res = await axios.post('http://localhost:5500/api/transcribe', {
+      const res = await axios.post(`${apiUrl}/api/transcribe`, {
         speechText: finalText,
         targetLang: targetLang,
       });
