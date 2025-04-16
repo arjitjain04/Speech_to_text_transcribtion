@@ -26,7 +26,7 @@ function App() {
         </Routes>
 
         <footer className="footer">
-          <p>🚀 Made with ❤️ by Arjit • College Project 2025</p>
+          <p>🚀 Made with ❤️ by Us • College Project 2025</p>
         </footer>
       </div>
     </Router>
