@@ -24,6 +24,16 @@ Speech_to_text_transcribtion/
 - 🌐 **Responsive Design**: Optimized for both desktop and mobile browsers.
 
 ---
+## 🖥️ Getting Started
+
+Follow these steps to set up and run the project locally:
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/arjitjain04/Speech_to_text_transcribtion.git
+cd Speech_to_text_transcribtion
+```
 
 ## 🔧 Installation
 
@@ -69,4 +79,11 @@ The frontend will be available at `http://localhost:3000` and the backend at `ht
 
 Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
 
+If you'd like to contribute to this project:
+
+1. Fork the repository  
+2. Create a new branch: `git checkout -b feature/YourFeature`  
+3. Commit your changes: `git commit -m 'Add your feature'`  
+4. Push to the branch: `git push origin feature/YourFeature`  
+5. Open a pull request  
 ---
